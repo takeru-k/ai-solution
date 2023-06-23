@@ -1,0 +1,50 @@
+@use "../setting/setting";
+.c-section{
+  padding: 40px 0;
+}
+
+.c-section + .c-section{
+  padding-top: 0;
+}
+
+.c-section__heading{
+  h2{
+    position: relative;
+    text-align: center;
+    padding-top: 16px;
+
+    &:before{
+      display: block;
+      content: "";
+      position: absolute;
+      top: 0;
+      height: 4px;
+      z-index: 1;
+      right: 0;
+      left: 0;
+      width: 64px;
+      margin: 0 auto;
+      background: setting.$color-main;
+    }
+
+    &:after{
+      z-index: 2;
+      right: 0;
+      left: 40px;
+      width: 32px;
+      margin: 0 auto;
+      background: setting.$color-accent;
+      display: block;
+      content: "";
+      position: absolute;
+      top: 0;
+      height: 4px;
+    }
+  }  
+}
+
+@media (min-width: 1024px){
+  .c-section{
+    padding: 64px 0;
+  }
+}
