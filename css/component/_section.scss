@@ -3,44 +3,43 @@
   padding: 40px 0;
 }
 
-.c-section + .c-section{
-  padding-top: 0;
-}
 
-.c-section__heading{
+.c-section__contents{
   h2{
     position: relative;
-    text-align: center;
-    padding-top: 16px;
-
-    &:before{
-      display: block;
-      content: "";
-      position: absolute;
-      top: 0;
-      height: 4px;
-      z-index: 1;
-      right: 0;
-      left: 0;
-      width: 64px;
-      margin: 0 auto;
-      background: setting.$color-main;
-    }
+    font-size: 18px;
+    font-family: "Noto Serif JP",serif;
 
     &:after{
-      z-index: 2;
-      right: 0;
-      left: 40px;
-      width: 32px;
-      margin: 0 auto;
-      background: setting.$color-accent;
-      display: block;
-      content: "";
+      content: '';
+      height: 1px;
+      width: 20%;
       position: absolute;
-      top: 0;
-      height: 4px;
+      bottom: -16px;
+      left: 0;
+      background: #000;
     }
   }  
+}
+
+.c-section__body{
+  position: relative;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.c-section__contents{
+  margin-left: 52px;
+}
+
+.c-section__texts{
+  margin-top: 40px;
+
+  p{
+    font-size: 14px;
+    line-height: 2.2;
+    margin-bottom: 16px;
+  }
 }
 
 @media (min-width: 1024px){
