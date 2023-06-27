@@ -121,7 +121,6 @@ li {
   z-index: 100;
   position: fixed;
   margin: 0 auto;
-  max-width: 1440px;
 }
 
 .l-header__logo {
@@ -541,6 +540,10 @@ li {
     width: 200px;
   }
 }
+.c-button2 {
+  background: #AAAAAA;
+}
+
 .c-topHeading span {
   font-size: 30px;
   text-transform: uppercase;
@@ -556,6 +559,9 @@ li {
 @media (min-width: 1024px) {
   .c-topHeading span {
     font-size: 36px;
+  }
+  .c-topHeading2 span {
+    font-size: 48px !important;
   }
 }
 .c-topTexts {
@@ -823,6 +829,9 @@ li {
   .c-partner {
     padding: 60px 6%;
   }
+  .c-partner__heading2 span {
+    font-size: 34px;
+  }
 }
 .c-contact {
   background: #F4F4F4;
@@ -857,6 +866,9 @@ li {
 @media (min-width: 1024px) {
   .c-contact {
     padding: 60px 6%;
+  }
+  .c-contact__heading2 span {
+    font-size: 34px;
   }
 }
 .c-vertical {
