@@ -42,7 +42,7 @@
 
   h3{
     font-size: 16px;
-    margin-top: 12px;
+    margin-top: 8px;
     margin-left: 10px;
     position: relative;
 
@@ -61,10 +61,25 @@
 
   p{
     font-size: 14px;
-    margin-top: 12px;
+    margin-top: 8px;
     text-align: justify;
     padding-right: 16px;
     line-height: 2.2;
+
+  }
+
+  ul{
+    background: #f7f7f7;
+    padding: 12px;
+    min-height: 164px;
+
+  }
+
+  li{
+    font-size: 14px;
+    padding-left:1em;
+	  text-indent:-1em;
+    margin-bottom: 4px;
   }
 }
 
@@ -76,6 +91,7 @@
   img{
     height: 220px;
     object-fit: cover;
+    width: 100%;
   }
 }
 
@@ -106,7 +122,7 @@
   .p-topService__img{
   img{
     height: 200px;
-    width: 300px;
+    width: 320px;
     object-fit: cover;
   }
 }
@@ -145,7 +161,8 @@
     display: none;
 }
 
-.swiper{
+
+.p-topService__content{
   position: relative;
   max-width: 1200px;
   padding-left: 6%;

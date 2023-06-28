@@ -18,7 +18,7 @@ const mySwiper = new Swiper('.swiper', {
   spaceBetween: 16,
   
   autoplay: { // 自動再生
-    delay: 3000, // 1.5秒後に次のスライド
+    delay: 5000, // 
   },
 
   loop: true,
