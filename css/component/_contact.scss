@@ -1,8 +1,10 @@
 @use "../setting/setting";
 
 .c-contact{
-  background: #F4F4F4;
+  background: url(../images/contact.jpg) no-repeat center center/cover;
   padding: 40px 6%;
+  color: #fff;
+  text-shadow: 0 0 20px rgba(0,0,0);
 }
 
 .c-contact__heading{

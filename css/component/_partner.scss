@@ -1,8 +1,9 @@
 @use "../setting/setting";
 
 .c-partner{
-  background: #000;
+  background: url(../images/partner.jpg) no-repeat center center/cover;
   padding: 40px 6%;
+  text-shadow: 0 0 20px rgba(0,0,0);
 }
 
 .c-partner__heading{

@@ -254,7 +254,7 @@ li {
 }
 
 .l-footer {
-  background: #646464;
+  background: #444;
   padding: 64px 0 12px;
 }
 
@@ -578,7 +578,7 @@ li {
   color: #fff;
   background: #AAAAAA;
   padding: 12px 16px;
-  letter-spacing: 1.6px;
+  letter-spacing: 1px;
   margin: 24px auto 0;
   font-weight: bold;
   display: block;
@@ -785,8 +785,9 @@ li {
   }
 }
 .c-partner {
-  background: #000;
+  background: url(../images/partner.jpg) no-repeat center center/cover;
   padding: 40px 6%;
+  text-shadow: 0 0 20px rgb(0, 0, 0);
 }
 
 .c-partner__heading {
@@ -827,8 +828,10 @@ li {
   }
 }
 .c-contact {
-  background: #F4F4F4;
+  background: url(../images/contact.jpg) no-repeat center center/cover;
   padding: 40px 6%;
+  color: #fff;
+  text-shadow: 0 0 20px rgb(0, 0, 0);
 }
 
 .c-contact__heading span {
